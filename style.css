@@ -1,13 +1,12 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+.container
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2ec6af;
 }
 
 .card {
-    background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin: 20px;
@@ -20,17 +19,12 @@ body {
     transition: transform .2s;
 }
 header {
-    background-color: #333;
+    background-color: #441f9a;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 h1 {
     font-size: 36px;
@@ -46,6 +40,7 @@ p {
 
 /* Estilos de secciones */
 .about, .projects, .contact {
+    text-align: center;
     background-color: white;
     margin: 20px;
     padding: 20px;
@@ -53,7 +48,6 @@ p {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos de proyectos */
 .project {
     margin: 10px 0;
 }
@@ -62,6 +56,6 @@ p {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #441f9a;
     color: white;
 }
