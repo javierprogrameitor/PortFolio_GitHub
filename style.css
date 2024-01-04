@@ -19,7 +19,7 @@
     transition: transform .1s;
 }
 header {
-    background-color: #441f9a;
+    background: linear-gradient(to right, rgb(0, 128, 58), rgb(59, 24, 111));
     color: white;
     text-align: center;
     padding: 20px;
@@ -46,10 +46,12 @@ p {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, rgb(0, 128, 58), rgb(59, 24, 111));
 }
 
-.project {
+.projects {
     margin: 10px 0;
+   
 }
 
 /* Estilos de footer */
@@ -58,4 +60,5 @@ footer {
     padding: 10px;
     background-color: #441f9a;
     color: white;
+    background: linear-gradient(to right, rgb(0, 128, 58), rgb(59, 24, 111));
 }
